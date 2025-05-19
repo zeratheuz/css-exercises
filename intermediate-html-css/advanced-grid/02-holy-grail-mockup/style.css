@@ -25,13 +25,17 @@
   grid-template-columns: 1fr 2fr;
 }
 
+.menu {
+  align-self: center;
+}
+
 .menu ul {
   display: grid;
-  grid-auto-flow: column;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .logo {
-  justify-self: flex-start;
+  justify-self: start;
 }
 
 .menu ul,
@@ -73,7 +77,7 @@
 
 .nav ul {
   display: grid;
-  grid-auto-flow: column;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .nav ul li {
@@ -107,6 +111,7 @@
   color: black;
   font-weight: normal;
   font-size: 14px;
+  padding: 5px;
 }
 
 .card .title {
